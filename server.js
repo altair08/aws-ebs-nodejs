@@ -5,7 +5,7 @@ const app = express();
 
 app.use(cors());
 
-app.get("/", (req, res) => res.json("API Running"));
+app.get("/", (req, res) => res.json("HI WELCOME TO AWS EBS"));
 
 
 const PORT = process.env.PORT || 3000;
